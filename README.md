@@ -8,6 +8,5 @@ Alteração na master local
 
 Link do projeto [Projeto libpythonpro](https://github.com/ogpgit/libpythonpro)
 
-issue 4
 
 link isuue 4  [Python Pro] (https://github.com/ogpgit/libpythonpro)
