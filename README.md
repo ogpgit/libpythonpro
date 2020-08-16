@@ -5,4 +5,4 @@ Neste curso é ensinado como contribuir com projetos de código aberto..
 
 link para o curso issus 4  [Python Pro](https://github.com/ogpgit/libpythonpro)
 
-mudanças na issus 6
+Suportada versão 3 de Python 
