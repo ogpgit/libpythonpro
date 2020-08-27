@@ -24,7 +24,7 @@ flake8
 Tópicos a serem abordados:
 1. git
 2. virtualenv issue 7
-3. pip issue 8
+3. pip issue 08
 4. Travis
 
 
