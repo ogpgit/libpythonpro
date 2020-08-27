@@ -23,6 +23,8 @@ flake8
 
 Tópicos a serem abordados:
 1. git
-2. Virtualenv
-3. Travis
+2. virtualenv
+3. pip
+4. Travis
+
 
