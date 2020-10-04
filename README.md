@@ -6,6 +6,8 @@ Neste curso é ensinado como contribuir com projetos de código aberto..
 link para o curso issus 4  [Python Pro](https://github.com/ogpgit/libpythonpro)
 
 [![Build Status](https://travis-ci.org/ogpgit/libpythonpro.svg?branch=master)](https://travis-ci.org/ogpgit/libpythonpro)
+[![Updates](https://pyup.io/repos/github/ogpgit/libpythonpro/shield.svg)](https://pyup.io/repos/github/ogpgit/libpythonpro/)
+[![Python 3](https://pyup.io/repos/github/ogpgit/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/ogpgit/libpythonpro/)
 
 Suportada versão 3 de Python 
 
