@@ -11,7 +11,7 @@ pytest==6.1.2
 colorama==0.4.4
 atomicwrites==1.4.0
 pluggy==0.13.1
-toml==0.10.1
+toml==0.10.2
 packaging==20.4
 importlib-metadata==2.0.0
 attrs==20.2.0
