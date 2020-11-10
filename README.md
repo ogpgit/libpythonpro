@@ -9,7 +9,7 @@ link para o curso issus 4  [Python Pro](https://github.com/ogpgit/libpythonpro)
 [![Updates](https://pyup.io/repos/github/ogpgit/libpythonpro/shield.svg)](https://pyup.io/repos/github/ogpgit/libpythonpro/)
 [![Python 3](https://pyup.io/repos/github/ogpgit/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/ogpgit/libpythonpro/)
 
-Suportada versão 3 de Python 
+Suportada  versão 3 de Python 
 
 Para instalar:
 
