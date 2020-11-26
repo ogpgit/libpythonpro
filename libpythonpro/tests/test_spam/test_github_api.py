@@ -11,20 +11,15 @@ def test_buscar_avatar(avatar_url):
 
 
 @pytest.fixture
-def avatar_url():
+def avatar_url(mocker):
     resp_mock = Mock()
     url = 'https://avatars1.githubusercontent.com/u/67315703?v=4'
     resp_mock.json.return_value = {
         'avatar_url': url
     }
-    get_original = github_api.requests.get
-    # print('get originallll')
-    # print(get_original)
-    github_api.requests.get = Mock(return_value=resp_mock)
-    # print('get Mockkkkkk')
-    # print(github_api.requests.get)
-    yield url
-    github_api.requests.get = get_original
+    get_mock = mocker.patch('libpythonpro.github_api.requests.get')
+    get_mock.return_value = resp_mock
+    return url
 
 
 # teste de integração realizando a chamada na rede (internet)
@@ -33,8 +28,3 @@ def test_buscar_avatar_integracao():
     # print(github_api.requests.get)
     url = github_api.buscar_avatar('ogpgit')
     assert 'https://avatars1.githubusercontent.com/u/67315703?v=4' == url
-
-
-# if __name__ == '__main__':
-    # test_buscar_avatar()
-    # test_buscar_avatar_integracao()
