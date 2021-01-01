@@ -6,7 +6,8 @@ python:
   - 3.7
 
 install:
-  - pip install -q -r requirements-dev.txt
+  - pip install -q pipenv codecov
+  - pipenv sync --dev
 
 script:
   - flake8
