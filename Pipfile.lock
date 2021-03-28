@@ -145,11 +145,10 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:5c5a2720817414a6c41f0a49993908068243ae02c1635a228126519b509c8aed",
-                "sha256:bf792d480abbd5eda85794e4afb09dd538393f7d6e6ffef6e9f03d2014cf9450"
+                "sha256:eb83dfc8d87a64d42fb2904312d632bb8d57e47c5b435f8d4d5523d2b0efc3d0",
+                "sha256:fc605f818ff2389df65d893ccefcd5310678c48c2855c42619464ed48556ff08"
             ],
-            "markers": "python_version < '3.8'",
-            "version": "==3.3.0"
+            "version": "==3.8.1"
         },
         "iniconfig": {
             "hashes": [
